@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import MemberContext from '../../context/MemberContext';
 import MemberForm from '../../components/memberComponents/MemberForm';
+import { Text } from 'react-native';
 
 const EditMemberScreen = ({ navigation }) => {
   const id = navigation.getParam('id');
@@ -35,7 +36,7 @@ EditMemberScreen.navigationOptions = ({ navigation }) => {
   const id = navigation.getParam('id');
 
   return {
-    headerTitle: `Edit Member ${id}`,
+    headerTitle: ()=><Text testID='editMemberHeader'>Edit Member {id}</Text>,
     headerTitleAlign: 'center',
   };
 };

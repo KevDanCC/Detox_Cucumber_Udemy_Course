@@ -4,22 +4,22 @@ import { Text } from 'react-native-elements';
 import ModalSection from './ModalSection';
 import ModalButton from './ModalButton';
 
-const ConfirmModal = ({ text, visible, onAccept, onDecline }) => {
+const ConfirmModal = ({ text, visible, onAccept, onDecline, testName }) => {
   return (
     <Modal
       visible={visible}
       transparent
       animationType="slide"
       onRequestClose={() => {}}>
-      <View style={styles.containerStyle}>
+      <View style={styles.containerStyle} testID={`confirmModal-${testName}`}>
         <ModalSection>
-          <Text style={styles.textStyle}>{text}</Text>
+          <Text style={styles.textStyle} testID={`textModal-${testName}`}>{text}</Text>
         </ModalSection>
 
         <ModalSection>
           <View style={styles.buttonContainer}>
-            <ModalButton text="Yes" onPress={onAccept} />
-            <ModalButton text="No" onPress={onDecline} />
+            <ModalButton text="Yes" onPress={onAccept} testID={`modalYesButton-${testName}`}/>
+            <ModalButton text="No" onPress={onDecline} testID={`modalNoButton-${testName}`}/>
           </View>
         </ModalSection>
       </View>

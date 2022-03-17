@@ -2,25 +2,30 @@ import React from 'react';
 import { Text, View, StyleSheet, ScrollView, FlatList, Image } from 'react-native';
 import { europe, usacanada, asia } from '../data/countryData';
 
-const ImageComponents = ({title}) => {
+const ImageComponents = ({title, nameTest}) => {
   const cities =
     title === 'Europe' ? europe : title === 'Asia' ? asia : usacanada;
-
   return (
-    <ScrollView>
+    <ScrollView >
       <View style={styles.headerContainer}>
-        <Text style={styles.headerText}>{title}</Text>
+        <Text style={styles.headerText}
+        testID={`continentLabel-${nameTest}`}
+        >{title}</Text>
       </View>
       <FlatList
+      testID={`imageBackground-${nameTest}`}
         horizontal
         showsHorizontalScrollIndicator={false}
         keyExtractor={(city) => city.name}
         data={cities}
-        renderItem={({item}) => {
+        renderItem={({item,index}) => {
           return (
             <View style={styles.imageContainer}>
-              <Text style={styles.imageText}>{item.name}</Text>
+              <Text style={styles.imageText}
+              testID={`imageTitle-${nameTest}-${index}`}
+              >{item.name}</Text>
               <Image
+              testID={`image-${nameTest}-${index}`}
                 style={styles.image}
                 resizeMode={'cover'}
                 source={item.imagePath}
