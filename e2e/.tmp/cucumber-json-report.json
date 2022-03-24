@@ -1,0 +1,101 @@
+[
+  {
+    "description": "Detox canround animations",
+    "elements": [
+      {
+        "description": "",
+        "id": "detox-with-animation;i-navigate-to-the-animation-screen-and-toggle-the-switch",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "I navigate to the Animation screen and toggle the switch",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9353121589
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I tap on the 'Animation' Home section",
+            "match": {
+              "location": "e2e/features/stepDefinitions/HomeSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1259553828
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I toggle the animation's switch",
+            "match": {
+              "location": "e2e/features/stepDefinitions/Synchronization.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2466559789
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I tap the back button",
+            "match": {
+              "location": "e2e/features/stepDefinitions/CommonSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1154494623
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the Home page is correctly displayed",
+            "match": {
+              "location": "e2e/features/stepDefinitions/HomeSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59898001
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1709355131
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@synchronization",
+            "line": 5
+          },
+          {
+            "name": "@animation",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "detox-with-animation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Detox with animation",
+    "tags": [],
+    "uri": "e2e/features/synchronization/animations.feature"
+  }
+]

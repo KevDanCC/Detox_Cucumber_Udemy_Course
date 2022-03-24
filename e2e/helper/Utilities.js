@@ -1,5 +1,14 @@
 import { getText } from "detox-getprops";
+import {copyFile as _copyFile, createReadStream} from 'fs-extra';
+import tempfile from 'tempfile';
+import {promisify} from 'util';
+
 import { getMoth } from "../testData/baseData";
+
+
+const copyFile= promisify(_copyFile);
+
+
 
 export const typeInElement = async (elementBySource, text) => {
     await device.disableSynchronization();
@@ -149,4 +158,12 @@ export const getElementText=async(mobileElement)=>{
     }else{
         return await getText(mobileElement);
     }
+}
+
+export const takeScreenshotStream=async(screenshotName)=>{
+    const imagePath= await device.takeScreenshot(screenshotName);
+    const persistedImagePath= tempfile('.png');
+    await copyFile(imagePath, persistedImagePath);
+
+    return createReadStream(persistedImagePath);
 }

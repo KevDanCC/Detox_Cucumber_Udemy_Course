@@ -92,7 +92,7 @@ const MemberListScreen = ({ navigation }) => {
 
 MemberListScreen.navigationOptions = ({ navigation }) => {
   return {
-    headerTitle: ()=> <Text testID='memberListHeader'>Members</Text>,
+    headerTitle:  <Text testID='memberListHeader'>Members</Text>,
     headerTitleAlign: 'center',
     headerRight: () => (
       <TouchableOpacity onPress={() => navigation.navigate('AddMember')}>

@@ -6,10 +6,13 @@
     "android:build": "react-native run-android",
     "ios:build": "react-native run-ios",
     "start": "react-native start",
-    "detox:build:ios-debug": "detox build --configuration ios.sim.debug",
-    "detox:e2e:ios-debug": " detox clean-framework-cache && detox build-framework-cache && DETOX_CONFIGURATION=ios.sim.debug npx cucumber-js",
-    "detox:build:android-debug": "detox build --configuration android.emu.debug",
-    "detox:e2e:android-debug": "DETOX_CONFIGURATION=android.emu.debug npx cucumber-js"
+    "detox:build:ios-debug": "detox build --configuration ios.sim.debug && mkdirp e2e/.tmp",
+    "detox:e2e:ios-debug": " detox clean-framework-cache && detox build-framework-cache && DETOX_CONFIGURATION=ios.sim.debug  DETOX_RECORD_VIDEOS='failing' DETOX_RECORD_LOGS='failing' npx cucumber-js",
+    "detox:build:android-debug": "detox build --configuration android.emu.debug && mkdirp e2e/.tmp",
+    "detox:e2e:android-debug": "DETOX_CONFIGURATION=android.emu.debug DETOX_RECORD_VIDEOS='failing' DETOX_RECORD_LOGS='failing' npx cucumber-js",
+    "detox:ios-report-generation": "cd e2e && DEVICE=\"iPhone 12\" OS=iOS VERSION=14.5 gulp report-generation && cd ..",
+    "detox:android-report-generation": "cd e2e && DEVICE=\"Pixel XL\" OS=Android VERSION=10 gulp report-generation && cd ..",
+    "detox:report-generation": "cd e2e && gulp report-generation && cd .."
   },
   "dependencies": {
     "@react-native-community/async-storage": "1.12.1",
@@ -21,6 +24,7 @@
     "react-dom": "17.0.2",
     "react-native": "0.63.4",
     "react-native-calendars": "1.1266.0",
+    "react-native-config": "^1.4.5",
     "react-native-date-picker": "4.0.0",
     "react-native-elements": "3.4.2",
     "react-native-gesture-handler": "1.10.3",
@@ -38,16 +42,22 @@
     "@babel/core": "7.15.5",
     "@babel/register": "^7.17.0",
     "@babel/runtime": "7.15.4",
-    "@cucumber/cucumber": "^7.3.2",
+    "@cucumber/cucumber": "8.0.0-rc.1",
     "@react-native-community/eslint-config": "3.0.1",
     "babel-jest": "27.1.0",
     "chai": "^4.3.6",
     "detox": "18.16.0",
     "detox-getprops": "^0.1.2",
     "eslint": "7.32.0",
+    "fs-extra": "^10.0.1",
+    "gulp": "^4.0.2",
     "jest": "27.1.0",
     "metro-react-native-babel-preset": "0.66.2",
-    "react-test-renderer": "17.0.2"
+    "multiple-cucumber-html-reporter": "^1.19.0",
+    "react-test-renderer": "17.0.2",
+    "replace-in-file": "^6.3.2",
+    "tempfile": "3.0.0",
+    "util": "^0.12.4"
   },
   "jest": {
     "preset": "react-native"
