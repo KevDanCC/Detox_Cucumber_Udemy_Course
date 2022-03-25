@@ -4,6 +4,7 @@ import { continentBackground, scrollCities, verifyCitiesPage } from '../../pageO
 setDefaultTimeout(120 * 1000);
 
 When('the Cities page is correctly displayed', async () => {
+    console.log("the Citis******")
     await verifyCitiesPage();
 })
 

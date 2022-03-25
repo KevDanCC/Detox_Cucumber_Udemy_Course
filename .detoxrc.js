@@ -25,6 +25,31 @@ module.exports = {
                 "rootDir": "e2e/reports/artifacts/android",
             },
         },
+
+        
+        "ios.sim.release": {
+            "binaryPath": "ios/build/Build/Products/Release-iphonesimulator/pqaa_detox.app",
+            "build": "ENVFILE=.env.testing xcodebuild -workspace ios/pqaa_detox.xcworkspace -scheme pqaa_detox -configuration Release -sdk iphonesimulator -derivedDataPath ios/build",
+            "type": "ios.simulator",
+            "device": {
+                "type": "iPhone 12"
+            },
+            "artifacts": {
+                "rootDir": "e2e/reports/artifacts/ios",
+            },
+        },
+
+        "android.emu.release": {
+            "binaryPath": "android/app/build/outputs/apk/release/app-release.apk",
+            "build": "cd android ENVFILE=.env.testing && ./gradlew assembleRelease assembleAndroidTest -DtestBuildType=release && cd ..",
+            "type": "android.emulator",
+            "device": {
+                "avdName": "Pixel_XL",
+            },
+            "artifacts": {
+                "rootDir": "e2e/reports/artifacts/android",
+            },
+        },
     },
 
 

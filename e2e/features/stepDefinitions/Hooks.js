@@ -9,8 +9,9 @@ import replace from 'replace-in-file';
 import { getReportValues } from '../../helper/ReportGeneration';
 let executionStart;
 
-BeforeAll({ timeout: 60 * 1000 }, async () => {
+BeforeAll({ timeout: 120 * 1000 }, async () => {
     executionStart=moment();
+    console.log('Execution startttt::', moment(executionStart).format('HH:mm:ss'));
     await init(config);
 });
 
@@ -71,6 +72,7 @@ AfterAll(async () => {
     const deviceOS=device.getPlatform();
     await cleanup();
     const executionEnd=moment();
+    console.log('Execution Finish::', moment(executionEnd).format('HH:mm:ss'));
 
     const options={
         files: 'e2e/Gulpfile.js',

@@ -52,23 +52,23 @@ export const cityImage=(continent, index)=>{
 
 //Functions used in encapsulation
 export const verifyCitiesPage = async () => {
-    await expect(citiesHeader()).toHaveText('Cities');
+    await expect(element(by.id(citiesHeader()))).toHaveText('Cities');
 
-    await expect(continentLabel('europe')).toHaveText('Europe');
-    await expect(europeImageTitle(0)).toBeVisible();
-    await expect(europeImage(0)).toBeVisible();
+    await expect(element(by.id(continentLabel('europe')))).toHaveText('Europe');
+    await expect(element(by.id(europeImageTitle(0)))).toBeVisible();
+    await expect(element(by.id(europeImage(0)))).toBeVisible();
 
-    await expect(continentLabel('usacanada')).toHaveText('USA / Canada');
-    await expect(usacanadaImageTitle(0)).toBeVisible();
-    await expect(usacanadaImageTitle(0)).toBeVisible();
+    await expect(element(by.id(continentLabel('usacanada')))).toHaveText('USA / Canada');
+    await expect(element(by.id(usacanadaImageTitle(0)))).toBeVisible();
+    await expect(element(by.id(usacanadaImageTitle(0)))).toBeVisible();
 
-    await citiesBackground().swipe('up');
+    await element(by.id(citiesBackground())).swipe('up');
 
-    await expect(continentLabel('asia')).toHaveText('Asia');
-    await expect(asiaImageTitle(0)).toBeVisible();
-    await expect(asiaImage(0)).toBeVisible();
+    await expect(element(by.id(continentLabel('asia')))).toHaveText('Asia');
+    await expect(element(by.id(asiaImageTitle(0)))).toBeVisible();
+    await expect(element(by.id(asiaImage(0)))).toBeVisible();
 
-    await citiesBackground().swipe('down');
+    await element(by.id(citiesBackground())).swipe('down');
 }
 
 export const scrollCities=async(continent, pixels,  direction, number)=>{

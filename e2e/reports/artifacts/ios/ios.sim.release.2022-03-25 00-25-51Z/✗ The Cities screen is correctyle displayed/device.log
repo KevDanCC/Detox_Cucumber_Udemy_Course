@@ -1,0 +1,154 @@
+Filtering the log data using "processImagePath BEGINSWITH "/Users/kcisneros/Library/Developer/CoreSimulator/Devices/9275A049-9576-422C-AA06-A3E4387366D6/data/Containers/Bundle/Application/8361617D-80C7-45DF-8034-4AF1D8F0FD6A/pqaa_detox.app""
+Timestamp               Ty Process[PID:TID]
+2022-03-24 18:26:09.703 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810b5600] Decoding completed without errors
+2022-03-24 18:26:09.703 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808b7600] Created session
+2022-03-24 18:26:09.703 Db pqaa_detox[55232:195966] (AppleJPEG) [0x0] Releasing session
+2022-03-24 18:26:09.703 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808b7600] Decoding: C0 0x07D0046B 0x00003048 0x22111100 0x00000000 362959
+2022-03-24 18:26:09.703 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808b7600] Options: 1x-1 [FFFFFFFF,FFFFFFFF] 00054060
+2022-03-24 18:26:09.722 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808b7600] Decoding completed without errors
+2022-03-24 18:26:09.727 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808b7600] Releasing session
+2022-03-24 18:26:09.727 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810c8c00] Created session
+2022-03-24 18:26:09.727 Db pqaa_detox[55232:195966] (AppleJPEG) [0x0] Releasing session
+2022-03-24 18:26:09.727 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810c8c00] Decoding: C0 0x07D0046B 0x00003048 0x22111100 0x00000000 362959
+2022-03-24 18:26:09.727 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810c8c00] Options: 1x-1 [FFFFFFFF,FFFFFFFF] 00054060
+2022-03-24 18:26:09.742 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810c8c00] Decoding completed without errors
+2022-03-24 18:26:09.768 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810c8c00] Releasing session
+2022-03-24 18:26:09.768 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820b2c00] Decoding: C0 0x07D0046B 0x0000304A 0x22111100 0x00000000 362959
+2022-03-24 18:26:09.768 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820b2c00] Options: 2000x1131 [FFFFFFFF,FFFFFFFF] 00025060
+2022-03-24 18:26:09.787 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820b2c00] Decoding completed without errors
+2022-03-24 18:26:09.788 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810d0c00] Created session
+2022-03-24 18:26:09.788 Db pqaa_detox[55232:195966] (AppleJPEG) [0x0] Releasing session
+2022-03-24 18:26:09.788 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810d0c00] Decoding: C0 0x05A003C0 0x00003048 0x22111100 0x00000000 241423
+2022-03-24 18:26:09.788 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810d0c00] Options: 1x-1 [FFFFFFFF,FFFFFFFF] 00054060
+2022-03-24 18:26:09.795 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810d0c00] Decoding completed without errors
+2022-03-24 18:26:09.796 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810d0c00] Releasing session
+2022-03-24 18:26:09.797 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808b7600] Created session
+2022-03-24 18:26:09.797 Db pqaa_detox[55232:195966] (AppleJPEG) [0x0] Releasing session
+2022-03-24 18:26:09.797 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808b7600] Decoding: C0 0x05A003C0 0x00003048 0x22111100 0x00000000 241423
+2022-03-24 18:26:09.797 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808b7600] Options: 1x-1 [FFFFFFFF,FFFFFFFF] 00054060
+2022-03-24 18:26:09.802 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808b7600] Decoding completed without errors
+2022-03-24 18:26:09.803 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808b7600] Releasing session
+2022-03-24 18:26:09.804 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe98087f200] Decoding: C0 0x05A003C0 0x0000304A 0x22111100 0x00000000 241423
+2022-03-24 18:26:09.804 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe98087f200] Options: 1440x960 [FFFFFFFF,FFFFFFFF] 00025060
+2022-03-24 18:26:09.816 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe98087f200] Decoding completed without errors
+2022-03-24 18:26:09.816 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810c8c00] Created session
+2022-03-24 18:26:09.816 Db pqaa_detox[55232:195966] (AppleJPEG) [0x0] Releasing session
+2022-03-24 18:26:09.816 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810c8c00] Decoding: C0 0x076C04F0 0x00003048 0x22111100 0x00000000 525681
+2022-03-24 18:26:09.816 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810c8c00] Options: 1x-1 [FFFFFFFF,FFFFFFFF] 00054060
+2022-03-24 18:26:09.829 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810c8c00] Decoding completed without errors
+2022-03-24 18:26:09.834 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810c8c00] Releasing session
+2022-03-24 18:26:09.834 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810c8c00] Created session
+2022-03-24 18:26:09.834 Db pqaa_detox[55232:195966] (AppleJPEG) [0x0] Releasing session
+2022-03-24 18:26:09.834 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810c8c00] Decoding: C0 0x076C04F0 0x00003048 0x22111100 0x00000000 525681
+2022-03-24 18:26:09.834 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810c8c00] Options: 1x-1 [FFFFFFFF,FFFFFFFF] 00054060
+2022-03-24 18:26:09.844 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810c8c00] Decoding completed without errors
+2022-03-24 18:26:09.855 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810c8c00] Releasing session
+2022-03-24 18:26:09.855 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820c2c00] Decoding: C0 0x076C04F0 0x0000304A 0x22111100 0x00000000 525681
+2022-03-24 18:26:09.855 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820c2c00] Options: 1900x1264 [FFFFFFFF,FFFFFFFF] 00025060
+2022-03-24 18:26:09.884 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820c2c00] Decoding completed without errors
+2022-03-24 18:26:09.888 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820cd000] Created session
+2022-03-24 18:26:09.888 Db pqaa_detox[55232:195966] (AppleJPEG) [0x0] Releasing session
+2022-03-24 18:26:09.888 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820cd000] Decoding: C2 0x042F022F 0x00003820 0x22111100 0x00000000 239182
+2022-03-24 18:26:09.888 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820cd000] Options: 1x-1 [FFFFFFFF,FFFFFFFF] 00054060
+2022-03-24 18:26:09.906 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820cd000] Decoding completed without errors
+2022-03-24 18:26:09.907 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820cd000] Releasing session
+2022-03-24 18:26:09.907 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820bc000] Decoding: C2 0x042F022F 0x00003822 0x22111100 0x00000000 239182
+2022-03-24 18:26:09.907 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820bc000] Options: 1071x559 [FFFFFFFF,FFFFFFFF] 00025060
+2022-03-24 18:26:09.926 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820bc000] Decoding completed without errors
+2022-03-24 18:26:09.927 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810c8c00] Created session
+2022-03-24 18:26:09.927 Db pqaa_detox[55232:195966] (AppleJPEG) [0x0] Releasing session
+2022-03-24 18:26:09.927 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810c8c00] Decoding: C0 0x06400420 0x00003548 0x11111100 0x00000000 281327
+2022-03-24 18:26:09.927 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810c8c00] Options: 1x-1 [FFFFFFFF,FFFFFFFF] 00044060
+2022-03-24 18:26:09.940 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810c8c00] Decoding completed without errors
+2022-03-24 18:26:09.946 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810c8c00] Releasing session
+2022-03-24 18:26:09.946 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808b8600] Created session
+2022-03-24 18:26:09.947 Db pqaa_detox[55232:195966] (AppleJPEG) [0x0] Releasing session
+2022-03-24 18:26:09.947 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808b8600] Decoding: C0 0x06400420 0x00003548 0x11111100 0x00000000 281327
+2022-03-24 18:26:09.947 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808b8600] Options: 1x-1 [FFFFFFFF,FFFFFFFF] 00044060
+2022-03-24 18:26:09.955 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808b8600] Decoding completed without errors
+2022-03-24 18:26:09.962 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808b8600] Releasing session
+2022-03-24 18:26:09.962 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820ab000] Decoding: C0 0x06400420 0x0000354A 0x11111100 0x00000000 281327
+2022-03-24 18:26:09.962 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820ab000] Options: 1600x1056 [FFFFFFFF,FFFFFFFF] 00025060
+2022-03-24 18:26:09.979 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820ab000] Decoding completed without errors
+2022-03-24 18:26:09.980 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808c2400] Created session
+2022-03-24 18:26:09.980 Db pqaa_detox[55232:195966] (AppleJPEG) [0x0] Releasing session
+2022-03-24 18:26:09.980 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808c2400] Decoding: C2 0x07D00536 0x00003840 0x22111100 0x00000000 821363
+2022-03-24 18:26:09.980 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808c2400] Options: 1x-1 [FFFFFFFF,FFFFFFFF] 00054060
+2022-03-24 18:26:10.015 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808c2400] Decoding completed without errors
+2022-03-24 18:26:10.023 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808c2400] Releasing session
+2022-03-24 18:26:10.023 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820d3600] Decoding: C2 0x07D00536 0x00003842 0x22111100 0x00000000 821363
+2022-03-24 18:26:10.023 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820d3600] Options: 2000x1334 [FFFFFFFF,FFFFFFFF] 00025060
+2022-03-24 18:26:10.071 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820d3600] Decoding completed without errors
+2022-03-24 18:26:10.072 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810cee00] Created session
+2022-03-24 18:26:10.072 Db pqaa_detox[55232:195966] (AppleJPEG) [0x0] Releasing session
+2022-03-24 18:26:10.072 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810cee00] Decoding: C0 0x10610937 0x00003048 0x22111100 0x00000000 1220381
+2022-03-24 18:26:10.072 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810cee00] Options: 1x-1 [FFFFFFFF,FFFFFFFF] 00054060
+2022-03-24 18:26:10.145 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810cee00] Decoding completed without errors
+2022-03-24 18:26:10.336 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810cee00] Releasing session
+2022-03-24 18:26:10.337 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820c8c00] Decoding: C0 0x10610937 0x0000304A 0x22111100 0x00000000 1220381
+2022-03-24 18:26:10.337 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820c8c00] Options: 4193x2359 [FFFFFFFF,FFFFFFFF] 0001D060
+2022-03-24 18:26:10.493 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820c8c00] Decoding completed without errors
+2022-03-24 18:26:10.696 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810cee00] Created session
+2022-03-24 18:26:10.697 Db pqaa_detox[55232:195966] (AppleJPEG) [0x0] Releasing session
+2022-03-24 18:26:10.697 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810cee00] Decoding: C0 0x0BB807D0 0x00003048 0x11111100 0x00000000 4613600
+2022-03-24 18:26:10.697 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810cee00] Options: 1x-1 [FFFFFFFF,FFFFFFFF] 00044060
+2022-03-24 18:26:10.860 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810cee00] Decoding completed without errors
+2022-03-24 18:26:10.923 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810cee00] Releasing session
+2022-03-24 18:26:10.932 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808c1400] Created session
+2022-03-24 18:26:10.932 Db pqaa_detox[55232:195966] (AppleJPEG) [0x0] Releasing session
+2022-03-24 18:26:10.934 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808c1400] Decoding: C0 0x0BB807D0 0x00003048 0x11111100 0x00000000 4613600
+2022-03-24 18:26:10.934 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808c1400] Options: 1x-1 [FFFFFFFF,FFFFFFFF] 00044060
+2022-03-24 18:26:11.150 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808c1400] Decoding completed without errors
+2022-03-24 18:26:11.175 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808c1400] Releasing session
+2022-03-24 18:26:11.175 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe980810600] Decoding: C0 0x0BB807D0 0x0000304A 0x11111100 0x00000000 4613600
+2022-03-24 18:26:11.175 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe980810600] Options: 3000x2000 [FFFFFFFF,FFFFFFFF] 00025060
+2022-03-24 18:26:11.339 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe980810600] Decoding completed without errors
+2022-03-24 18:26:11.340 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808ca800] Created session
+2022-03-24 18:26:11.340 Db pqaa_detox[55232:195966] (AppleJPEG) [0x0] Releasing session
+2022-03-24 18:26:11.340 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808ca800] Decoding: C0 0x07C704BE 0x00003048 0x11111100 0x00000000 762389
+2022-03-24 18:26:11.340 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808ca800] Options: 1x-1 [FFFFFFFF,FFFFFFFF] 00044060
+2022-03-24 18:26:11.369 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808ca800] Decoding completed without errors
+2022-03-24 18:26:11.385 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808ca800] Releasing session
+2022-03-24 18:26:11.386 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808ca800] Created session
+2022-03-24 18:26:11.386 Db pqaa_detox[55232:195966] (AppleJPEG) [0x0] Releasing session
+2022-03-24 18:26:11.386 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808ca800] Decoding: C0 0x07C704BE 0x00003048 0x11111100 0x00000000 762389
+2022-03-24 18:26:11.386 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808ca800] Options: 1x-1 [FFFFFFFF,FFFFFFFF] 00044060
+2022-03-24 18:26:11.404 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808ca800] Decoding completed without errors
+2022-03-24 18:26:11.419 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9808ca800] Releasing session
+2022-03-24 18:26:11.419 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820fd000] Decoding: C0 0x07C704BE 0x0000304A 0x11111100 0x00000000 762389
+2022-03-24 18:26:11.419 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820fd000] Options: 1991x1214 [FFFFFFFF,FFFFFFFF] 00025060
+2022-03-24 18:26:11.448 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820fd000] Decoding completed without errors
+2022-03-24 18:26:12.029 I  pqaa_detox[55232:195966] [com.wix.Detox:WebSocket] Action received: invoke
+2022-03-24 18:26:12.046 I  pqaa_detox[55232:195966] [com.wix.Detox:WebSocket] Action received: invoke
+2022-03-24 18:26:12.168 I  pqaa_detox[55232:195966] [com.wix.Detox:WebSocket] Action received: invoke
+2022-03-24 18:26:12.353 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820fd000] Decoding: C0 0x07C704BE 0x0000304A 0x11111100 0x30260008 762389
+2022-03-24 18:26:12.353 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820fd000] Options: 2x-1 [00000000,07C604BE] 0001C060
+2022-03-24 18:26:12.393 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820fd000] Decoding completed without errors
+2022-03-24 18:26:12.424 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe980810600] Decoding: C0 0x0BB807D0 0x0000304A 0x11111100 0x303E800C 4613600
+2022-03-24 18:26:12.424 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe980810600] Options: 4x-1 [00000000,0BB807D0] 0001C060
+2022-03-24 18:26:12.699 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe980810600] Decoding completed without errors
+2022-03-24 18:26:12.757 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820c8c00] Decoding: C0 0x10610937 0x0000304A 0x22111100 0x30250009 1220381
+2022-03-24 18:26:12.757 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820c8c00] Options: 4x-1 [00000000,10600934] 0001C060
+2022-03-24 18:26:12.789 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820c8c00] Decoding completed without errors
+2022-03-24 18:26:12.818 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820d3600] Decoding: C2 0x07D00536 0x00003842 0x22111100 0x00000000 821363
+2022-03-24 18:26:12.818 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820d3600] Options: 2x-1 [00000000,07D00536] 0001D060
+2022-03-24 18:26:12.862 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820d3600] Decoding completed without errors
+2022-03-24 18:26:12.900 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820ab000] Decoding: C0 0x06400420 0x0000354A 0x11111100 0x30210007 281327
+2022-03-24 18:26:12.900 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820ab000] Options: 2x-1 [00000000,06400420] 0001C060
+2022-03-24 18:26:12.912 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820ab000] Decoding completed without errors
+2022-03-24 18:26:12.933 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820c2c00] Decoding: C0 0x076C04F0 0x0000304A 0x22111100 0x3013C004 525681
+2022-03-24 18:26:12.933 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820c2c00] Options: 2x-1 [00000000,076C04F0] 0001C060
+2022-03-24 18:26:12.960 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820c2c00] Decoding completed without errors
+2022-03-24 18:26:12.996 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820b2c00] Decoding: C0 0x07D0046B 0x0000304A 0x22111100 0x3011C004 362959
+2022-03-24 18:26:12.996 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820b2c00] Options: 2x-1 [00000000,07D0046A] 0001C060
+2022-03-24 18:26:13.027 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9820b2c00] Decoding completed without errors
+2022-03-24 18:26:13.031 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810b5600] Decoding: C0 0x07800438 0x00F0354A 0x11111100 0x3021C008 762473
+2022-03-24 18:26:13.031 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810b5600] Options: 2x-1 [00000000,07800438] 0001C060
+2022-03-24 18:26:13.059 Db pqaa_detox[55232:195966] (AppleJPEG) [0x7fe9810b5600] Decoding completed without errors
+2022-03-24 18:26:13.261 I  pqaa_detox[55232:195966] [com.wix.Detox:WebSocket] Action received: invoke
+2022-03-24 18:26:13.542 I  pqaa_detox[55232:195966] [com.wix.Detox:WebSocket] Action received: invoke
+2022-03-24 18:26:13.552 I  pqaa_detox[55232:195966] [com.wix.Detox:WebSocket] Action received: invoke
+2022-03-24 18:26:13.783 I  pqaa_detox[55232:195966] [com.wix.Detox:WebSocket] Action received: invoke
+2022-03-24 18:26:15.670 Db pqaa_detox[55232:195b52] [com.apple.ManagedConfiguration:ProfileConnection] Invalidating cache
+2022-03-24 18:26:17.704 Db pqaa_detox[55232:195b54] [com.apple.ManagedConfiguration:ProfileConnection] Invalidating cache
+

@@ -1,72 +1,59 @@
 [
   {
-    "description": "Detox canround animations",
+    "description": "    I can view the images and labels from 4 cities in Europe, USA/Canada and Asia.",
     "elements": [
       {
         "description": "",
-        "id": "detox-with-animation;i-navigate-to-the-animation-screen-and-toggle-the-switch",
+        "id": "cities-images-are-correctly-displayed-and-scrollable;i-can-scroll-through-images-in-the-different-continents",
         "keyword": "Scenario",
-        "line": 6,
-        "name": "I navigate to the Animation screen and toggle the switch",
+        "line": 17,
+        "name": "I can scroll through images in the different continents",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 9353121589
+              "duration": 50506193901
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 7,
-            "name": "I tap on the 'Animation' Home section",
+            "line": 6,
+            "name": "I tap on the 'Cities' Home section",
             "match": {
               "location": "e2e/features/stepDefinitions/HomeSteps.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 1259553828
+              "duration": 16982654337
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 8,
-            "name": "I toggle the animation's switch",
+            "line": 18,
+            "name": "I scroll \"Europe\" at 100 pixels \"right\" to image number 4",
             "match": {
-              "location": "e2e/features/stepDefinitions/Synchronization.js:6"
+              "location": "e2e/features/stepDefinitions/CitiesSteps.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 2466559789
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "I tap the back button",
-            "match": {
-              "location": "e2e/features/stepDefinitions/CommonSteps.js:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1154494623
+              "duration": 32366355173
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 10,
-            "name": "the Home page is correctly displayed",
+            "line": 19,
+            "name": "I scroll \"Europe\" at 100 pixels \"left\" to image number 2",
             "match": {
-              "location": "e2e/features/stepDefinitions/HomeSteps.js:9"
+              "location": "e2e/features/stepDefinitions/CitiesSteps.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 59898001
+              "duration": 14252197846
             }
           },
           {
@@ -74,28 +61,341 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1709355131
+              "duration": 5283012862
             }
           }
         ],
         "tags": [
           {
-            "name": "@synchronization",
-            "line": 5
+            "name": "@cities",
+            "line": 16
           },
           {
-            "name": "@animation",
-            "line": 5
+            "name": "@scrolling",
+            "line": 16
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cities-images-are-correctly-displayed-and-scrollable;the-cities-screen-is-correctyle-displayed",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "The Cities screen is correctyle displayed",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 48356826823
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I tap on the 'Cities' Home section",
+            "match": {
+              "location": "e2e/features/stepDefinitions/HomeSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14967538721
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "the Cities page is correctly displayed",
+            "match": {
+              "location": "e2e/features/stepDefinitions/CitiesSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21914070081
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I tap the back button",
+            "match": {
+              "location": "e2e/features/stepDefinitions/CommonSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2038689767
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the Home page is correctly displayed",
+            "match": {
+              "location": "e2e/features/stepDefinitions/HomeSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2882929013
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6193474168
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cities",
+            "line": 9
+          },
+          {
+            "name": "@navigation",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cities-images-are-correctly-displayed-and-scrollable;i-can-scroll-through-images-in-the-different-continents",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "I can scroll through images in the different continents",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 52606210808
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I tap on the 'Cities' Home section",
+            "match": {
+              "location": "e2e/features/stepDefinitions/HomeSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22961803286
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I scroll \"USACanada\" at 100 pixels \"right\" to image number 3",
+            "match": {
+              "location": "e2e/features/stepDefinitions/CitiesSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19502575489
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I scroll \"USACanada\" at 100 pixels \"left\" to image number 1",
+            "match": {
+              "location": "e2e/features/stepDefinitions/CitiesSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12191614783
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5295728380
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cities",
+            "line": 16
+          },
+          {
+            "name": "@scrolling",
+            "line": 16
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cities-images-are-correctly-displayed-and-scrollable;i-can-scroll-through-images-in-the-different-continents",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "I can scroll through images in the different continents",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 40724503719
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I tap on the 'Cities' Home section",
+            "match": {
+              "location": "e2e/features/stepDefinitions/HomeSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5311447426
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I scroll \"Asia\" at 100 pixels \"right\" to image number 4",
+            "match": {
+              "location": "e2e/features/stepDefinitions/CitiesSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22309769275
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I scroll \"Asia\" at 100 pixels \"left\" to image number 1",
+            "match": {
+              "location": "e2e/features/stepDefinitions/CitiesSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15651466966
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3355857764
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cities",
+            "line": 16
+          },
+          {
+            "name": "@scrolling",
+            "line": 16
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cities-images-are-correctly-displayed-and-scrollable;i-can-scroll-vertically-to-edges",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "I can scroll vertically to edges",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 20702923039
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I tap on the 'Cities' Home section",
+            "match": {
+              "location": "e2e/features/stepDefinitions/HomeSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8001501927
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "I scroll 'europe' to the 'right'",
+            "match": {
+              "location": "e2e/features/stepDefinitions/CitiesSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6997263060
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I scroll 'europe' to the 'left'",
+            "match": {
+              "location": "e2e/features/stepDefinitions/CitiesSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1288613202
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5102575901
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cities",
+            "line": 27
+          },
+          {
+            "name": "@scrolling",
+            "line": 27
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "detox-with-animation",
+    "id": "cities-images-are-correctly-displayed-and-scrollable",
     "line": 1,
     "keyword": "Feature",
-    "name": "Detox with animation",
+    "name": "Cities images are correctly displayed and scrollable",
     "tags": [],
-    "uri": "e2e/features/synchronization/animations.feature"
+    "uri": "e2e/features/cities/scrollingcities.feature"
   }
 ]
