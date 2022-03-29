@@ -6,8 +6,8 @@ Feature: Cities images are correctly displayed and scrollable
         Given I tap on the 'Cities' Home section
 
 
-    @cities @navigation
-    Scenario: The Cities screen is correctyle displayed
+    @cities @navigation @testerone
+    Scenario: the Cities screen is correctyle displayed
         When the Cities page is correctly displayed
         And I tap the back button
         Then the Home page is correctly displayed
