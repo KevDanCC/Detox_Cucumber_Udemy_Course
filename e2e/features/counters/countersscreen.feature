@@ -14,7 +14,7 @@ Feature: Counters are correctly displayed and we can tap on it
         Then I tap the back button
         Examples:
             | button      | number |
-            | wwater       | 4      |
+            | water       | 4      |
             # | electricity | 2      |
             # | gas         | 6      |
             # | broadband   | 8      |
